@@ -8,16 +8,19 @@ public static void main(String[] args) {
 	// This recipe draws a square using the Robot
 
 	
-	// 1. Make a new Robot
+	//  Make a new Robot
 Robot lilbapoo= new Robot();
 	
-    // 3. Put the robot's pen down
+    //  Put the robot's pen down
 lilbapoo.penDown();
-	
-    // 6. Make the robot move as fast as possible
-
+lilbapoo.setAngle(180);	
+    //  Make the robot move as fast as possible
+//lilbapoo.move(200);
     // try to make the letter L 
 
+	lilbapoo.move(70);
+	lilbapoo.turn(-90);
+   lilbapoo.move(90);
 	
    
 }
