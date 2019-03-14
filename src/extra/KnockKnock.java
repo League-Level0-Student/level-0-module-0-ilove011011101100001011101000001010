@@ -7,11 +7,10 @@ public class KnockKnock {
 
 
 
-JOptionPane.showMessageDialog(null,"knock knock");
-JOptionPane.inputDialog(null); 
+String joky=JOptionPane.showInputDialog(null,"knock knock");
 JOptionPane.showMessageDialog(null,"cow");
-
-
+String joke=JOptionPane.showInputDialog(null,"");
+String jok=JOptionPane.showInputDialog(null,"no cow go moom");
 
 
 
