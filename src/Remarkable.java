@@ -9,22 +9,21 @@ public class Remarkable {
 		String hieu = "idk i berlly evne KnOW THAtkid";
 		String name = JOptionPane.showInputDialog(null, "what is your name");
 		if (name.equals("luis")) {
-			JOptionPane.showMessageDialog(null, "luis is a beast at apeg");
+			JOptionPane.showMessageDialog(null, luis);
 		}
 		if (name.equals("ayden")) {
-			JOptionPane.showMessageDialog(null, " ayden is bad at fn and bad at apeg");
+			JOptionPane.showMessageDialog(null, ayden);
 		}
-		if (name.equals("jacob"))
-			JOptionPane.showMessageDialog(null, "is good at fn and good at apeg");
-		{
+		if (name.equals("jacob")) {
+			JOptionPane.showMessageDialog(null,jacob );
+		
 
 		}
 
-		if (name.equals("hieu"))
-			JOptionPane.showMessageDialog(null, "idk i berlly evne KnOW THAtkid");
+		if (name.equals("hieu")) {
+			JOptionPane.showMessageDialog(null, hieu);
 
-		{
-
+		
 		}
 	}
 }
